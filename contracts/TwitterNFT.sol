@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 
 contract TwitterNFT is ERC721 {
-    uint tokenId;
+    uint public tokenId;
     mapping(uint => string) images;
 
     constructor() ERC721("TwitterNFT", "TWIT") {

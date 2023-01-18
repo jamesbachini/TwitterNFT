@@ -37,5 +37,4 @@ contract TwitterNFT is ERC721 {
         )));
         return string(abi.encodePacked('data:application/json;base64,', json));
     }
-
 }

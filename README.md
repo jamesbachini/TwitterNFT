@@ -10,7 +10,7 @@ Based on a standard ERC721 contract using base64 encoding to keep the data withi
 
 Contract deployed to Ethereum mainnet at: https://etherscan.io/address/0x484Ec30Feff505b545Ed7b905bc25a6a40589181
 
-Doesn't seem to be recognised by Twitter Blue app currently. Maybe a delay or perhaps it doesn't play nice with the base64 encoding. Twitter uses the OpenSea API and it's showing in the wallet on OpenSea so...
+It works you can go on Etherscan and mint an NFT by adding an image URL like https://jamesbachini.com/misc/nft.jpg which is what I used for mine. I found that Twitter didn't recognise the NFT initially and I had to transfer it from one account to another. Not sure why that was and might have just been because I had only just deployed the contract but if you are getting a "No NFTs in wallet" message on Twitter, try transferring it to another wallet and connecting that.
 
 ## Deployment
 
